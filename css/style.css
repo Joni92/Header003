@@ -10,6 +10,7 @@
 body{
     background: #fff;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header
@@ -63,6 +64,7 @@ header
 
 .parallax
 {
+    margin-top: 10rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -82,10 +84,11 @@ header
 #text
 {
     position: absolute;
-    top: 50%;
+    top: 16%;
     transform: translateY(-50%);
     font-size: 4em;
     color: #112434;
+    text-align: justify;
 }
 
 .sec
